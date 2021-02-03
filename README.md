@@ -6,7 +6,7 @@ En este repositorio estaré llevando la documentación del proyecto de temas 1 a
 
 1. [Como subir este repositorio](#Como-subir-este-repo)
 2. [Contraseña Login](#Contraseña-Login)
-3. [Link de Post - Blog Notion](Link-de-Post---Blog-Notion)
+3. [Link de Post - Blog Notion](#Link-de-Post---Blog-Notion)
 4. [Comentarios](#Comentarios)
 
 # Como subir este repositorio
