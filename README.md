@@ -1,15 +1,18 @@
-# Web Temas 1-4 Ejercicios Propuestos
+# Web Cine | Temas 1-4 Ejercicios Propuestos
 
-### En este repositorio estare llevando la documentación del proyecto de temas 1 al 4
+En este repositorio estaré llevando la documentación del proyecto de temas 1 al 4 del curso de django de inteccsa
 
-[Como subir este repo](#Comentarios)
+# Índice
 
-[Clase 1 Introducción al curso](#Clase-1-Introducción-al-curso)
+1. [Como subir este repositorio](#Como-subir-este-repo)
+2. [Contraseña Login](#Contraseña-Login)
+3. [Link de Post - Blog Notion](Link-de-Post---Blog-Notion)
+4. [Comentarios](#Comentarios)
 
-## Como subir este repo
+# Como subir este repositorio
 
 - Creo el repo en github normal si novedad, en blanco.
-- Creo el README.md con esta informacion básica
+- Creo el README.md con la estructura de documentacion como puedes ver.
 - **Y luego aplico estos comandos:**
 
   - git init
@@ -27,18 +30,84 @@
   - git status
   - **git push -u origin main**
 
-## Contraseña Login
+# Contraseña Login
 
 admin | 1234
 
-# Link de Post - Blog
+# Link de Post - Blog Notion
 
 [Examen 1 Python Django (notion.so)](https://www.notion.so/Examen-1-Python-Django-6afb294b2a034367b2a7aaa2af6091f0)
 
+# Puntos del Examen:
+
+## Pregunta 1 (1 punto)
+
+1. [ ] Crea el proyecto cine y la aplicación sala
+2. [ ] Configura la base de datos y las opciones locales (idioma, zona horaria)
+3. [ ] Sincroniza la base de datos.
+4. [ ] Lanza el servidor interno de django y comprueba que funciona el
+   proyecto
+
+## Pregunta 2(1 punto)
+
+En la aplicación sala :
+
+1. Escribe las dos clases para los modelos: Peliculas y programacionSala
+2. Sincroniza la base de datos
+3. Introduce varias peliculas y programacionSala desde la API del ORM de
+   django
 
 
-## Comentarios
+## Pregunta 3(3 punto)
 
-lunes, 1 de febrero de 2021 23:03
+1. Activa el admin de Django para la aplicación sala
+2. Diseña una clase para administrar las salas
+3. Relaciona las opciones mediante un inline
+4. Configura los fieldsets
+5. Haz que se vea bien el plural de programacionSala
+6. Mejora la página de listados de salas:
+7. Que se vean bien las columnas de datos
+8. Opción para buscar
+9. Añade list_filter y date_hierarchy
+   10.Cambia el nombre de la aplicación para que no se vea: Administración
+   de Django
+   11.Haz que, al entrar en el admin, vaya directamente a la aplicación de
+   salas.
+   12.Añade en el listado de las encuestas el número total de películas
+   exhibidas que ha tenido cada una.
+
+
+
+## Pregunta 4(3 punto)
+
+Diseña las urls para que se pueda acceder a:
+
+1. Listado general de todas las salas
+2. Detalle de una sala
+3. Resultado de las películas exhibidas en esa sala
+4. Hazlo en un fichero urls.py dentro de la aplicación y enlázalo desde
+   el urls.py general del proyecto
+5. Escribe las tres vistas para las acciones anteriores.
+6. Escribe las plantillas necesarias. Configura el directorio de templates
+   dentro de settings.py
+
+
+## Pregunta 5(2 punto)
+
+Modifica tus plantillas para que usen un template genérico que contenga el
+estilo del sitio. Utiliza la herencia de plantillas. Haz que todas las páginas
+compartan el encabezado y el pie de página. Pon un color de fondo a las
+páginas y modifica el color de la letra. En el encabezado tendrá que haber una
+imagen almacenada en el proyecto.
+
+
+
+# Comentarios
+
+### martes, 3 de febrero de 2021 20:05
+
+Creo este formato de documentacion para darle seguimiento al proceso.
+
+### lunes, 1 de febrero de 2021 23:03
 
 Projecto creado y app creada, conexion con postgresql exitosa. Migraciones por defecto realizadas.
