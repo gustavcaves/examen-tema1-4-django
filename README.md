@@ -42,63 +42,63 @@ admin | 1234
 
 ## Pregunta 1 (1 punto)
 
-1. [ ] Crea el proyecto cine y la aplicación sala
-2. [ ] Configura la base de datos y las opciones locales (idioma, zona horaria)
-3. [ ] Sincroniza la base de datos.
-4. [ ] Lanza el servidor interno de django y comprueba que funciona el
+1. [X] Crea el proyecto cine y la aplicación sala
+2. [X] Configura la base de datos y las opciones locales (idioma, zona horaria)
+3. [X] Sincroniza la base de datos.
+4. [X] Lanza el servidor interno de django y comprueba que funciona el
    proyecto
 
-## Pregunta 2(1 punto)
+## Pregunta 2 (1 punto)
 
 En la aplicación sala :
 
-1. Escribe las dos clases para los modelos: Peliculas y programacionSala
-2. Sincroniza la base de datos
-3. Introduce varias peliculas y programacionSala desde la API del ORM de
+1. [ ] Escribe las dos clases para los modelos: Peliculas y programacionSala
+2. [ ] Sincroniza la base de datos
+3. [ ] Introduce varias peliculas y programacionSala desde la API del ORM de
    django
 
 
-## Pregunta 3(3 punto)
+## Pregunta 3 (3 punto)
 
-1. Activa el admin de Django para la aplicación sala
-2. Diseña una clase para administrar las salas
-3. Relaciona las opciones mediante un inline
-4. Configura los fieldsets
-5. Haz que se vea bien el plural de programacionSala
-6. Mejora la página de listados de salas:
-7. Que se vean bien las columnas de datos
-8. Opción para buscar
-9. Añade list_filter y date_hierarchy
-   10.Cambia el nombre de la aplicación para que no se vea: Administración
-   de Django
-   11.Haz que, al entrar en el admin, vaya directamente a la aplicación de
-   salas.
-   12.Añade en el listado de las encuestas el número total de películas
-   exhibidas que ha tenido cada una.
+1. [ ] Activa el admin de Django para la aplicación sala
+2. [ ] Diseña una clase para administrar las salas
+3. [ ] Relaciona las opciones mediante un inline
+4. [ ] Configura los fieldsets
+5. [ ] Haz que se vea bien el plural de programacionSala
+6. [ ] Mejora la página de listados de salas:
+7. [ ] Que se vean bien las columnas de datos
+8. [ ] Opción para buscar
+9. [ ] Añade list_filter y date_hierarchy
+10. [ ] Cambia el nombre de la aplicación para que no se vea: Administración
+    de Django
+11. [ ] Haz que, al entrar en el admin, vaya directamente a la aplicación de
+    salas.
+11. [ ] Añade en el listado de las encuestas el número total de películas
+    exhibidas que ha tenido cada una.
 
 
 
-## Pregunta 4(3 punto)
+## Pregunta 4 (3 punto)
 
 Diseña las urls para que se pueda acceder a:
 
-1. Listado general de todas las salas
-2. Detalle de una sala
-3. Resultado de las películas exhibidas en esa sala
-4. Hazlo en un fichero urls.py dentro de la aplicación y enlázalo desde
+1. [ ] Listado general de todas las salas
+2. [ ] Detalle de una sala
+3. [ ] Resultado de las películas exhibidas en esa sala
+4. [ ] Hazlo en un fichero urls.py dentro de la aplicación y enlázalo desde
    el urls.py general del proyecto
-5. Escribe las tres vistas para las acciones anteriores.
-6. Escribe las plantillas necesarias. Configura el directorio de templates
+5. [ ] Escribe las tres vistas para las acciones anteriores.
+6. [ ] Escribe las plantillas necesarias. Configura el directorio de templates
    dentro de settings.py
 
 
-## Pregunta 5(2 punto)
+## Pregunta 5 (2 punto)
 
-Modifica tus plantillas para que usen un template genérico que contenga el
-estilo del sitio. Utiliza la herencia de plantillas. Haz que todas las páginas
-compartan el encabezado y el pie de página. Pon un color de fondo a las
-páginas y modifica el color de la letra. En el encabezado tendrá que haber una
-imagen almacenada en el proyecto.
+* [ ] Modifica tus plantillas para que usen un template genérico que contenga el
+  estilo del sitio. Utiliza la herencia de plantillas. Haz que todas las páginas
+  compartan el encabezado y el pie de página. Pon un color de fondo a las
+  páginas y modifica el color de la letra. En el encabezado tendrá que haber una
+  imagen almacenada en el proyecto.
 
 
 
