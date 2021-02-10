@@ -1,6 +1,6 @@
 # Web Cine | Temas 1-4 Ejercicios Propuestos
 
-En este repositorio estaré llevando la documentación del proyecto de temas 1 al 4 del curso de django de inteccsa
+En este repositorio estaré llevando la documentación del proyecto de temas 1 al 4 del curso de django de inteccsa  sdfsfsdf
 
 # Índice
 
@@ -52,11 +52,10 @@ admin | 1234
 
 En la aplicación sala :
 
-1. [ ] Escribe las dos clases para los modelos: Peliculas y programacionSala
-2. [ ] Sincroniza la base de datos
+1. [X] Escribe las dos clases para los modelos: Peliculas y programacionSala
+2. [X] Sincroniza la base de datos
 3. [ ] Introduce varias peliculas y programacionSala desde la API del ORM de
    django
-
 
 ## Pregunta 3 (3 punto)
 
@@ -73,10 +72,8 @@ En la aplicación sala :
     de Django
 11. [ ] Haz que, al entrar en el admin, vaya directamente a la aplicación de
     salas.
-11. [ ] Añade en el listado de las encuestas el número total de películas
+12. [ ] Añade en el listado de las encuestas el número total de películas
     exhibidas que ha tenido cada una.
-
-
 
 ## Pregunta 4 (3 punto)
 
@@ -91,7 +88,6 @@ Diseña las urls para que se pueda acceder a:
 6. [ ] Escribe las plantillas necesarias. Configura el directorio de templates
    dentro de settings.py
 
-
 ## Pregunta 5 (2 punto)
 
 * [ ] Modifica tus plantillas para que usen un template genérico que contenga el
@@ -99,8 +95,6 @@ Diseña las urls para que se pueda acceder a:
   compartan el encabezado y el pie de página. Pon un color de fondo a las
   páginas y modifica el color de la letra. En el encabezado tendrá que haber una
   imagen almacenada en el proyecto.
-
-
 
 # Comentarios
 
