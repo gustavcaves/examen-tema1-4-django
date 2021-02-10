@@ -12,7 +12,7 @@ class Peliculas(models.Model):
     class Meta:
         verbose_name="Película"
         verbose_name="Películas"
-        ordering = ['title','year']
+        ordering = ['-year','title']
 
     def __str__(self):
         return self.title
