@@ -1,6 +1,6 @@
 # Web Cine | Temas 1-4 Ejercicios Propuestos
 
-En este repositorio estaré llevando la documentación del proyecto de temas 1 al 4 del curso de django de inteccsa  sdfsfsdf
+En este repositorio estaré llevando la documentación del proyecto de temas 1 al 4 del curso de django de inteccsa
 
 # Índice
 
@@ -97,6 +97,10 @@ Diseña las urls para que se pueda acceder a:
   imagen almacenada en el proyecto.
 
 # Comentarios
+
+### jueves, 11 de febrero de 2021 23:16
+
+He realizado algunos puntos, agragado datos por la shell orm api de django y visualizado con el admin. Entre otras cosas como practicar e interiorizar mas los comandos.
 
 ### martes, 3 de febrero de 2021 20:05
 
