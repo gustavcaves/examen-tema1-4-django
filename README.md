@@ -54,18 +54,18 @@ En la aplicación sala :
 
 1. [X] Escribe las dos clases para los modelos: Peliculas y programacionSala
 2. [X] Sincroniza la base de datos
-3. [ ] Introduce varias peliculas y programacionSala desde la API del ORM de
+3. [X] Introduce varias peliculas y programacionSala desde la API del ORM de
    django
 
 ## Pregunta 3 (3 punto)
 
-1. [ ] Activa el admin de Django para la aplicación sala
-2. [ ] Diseña una clase para administrar las salas
+1. [X] Activa el admin de Django para la aplicación sala
+2. [X] Diseña una clase para administrar las salas
 3. [ ] Relaciona las opciones mediante un inline
 4. [ ] Configura los fieldsets
-5. [ ] Haz que se vea bien el plural de programacionSala
+5. [X] Haz que se vea bien el plural de programacionSala
 6. [ ] Mejora la página de listados de salas:
-7. [ ] Que se vean bien las columnas de datos
+7. [X] Que se vean bien las columnas de datos
 8. [ ] Opción para buscar
 9. [ ] Añade list_filter y date_hierarchy
 10. [ ] Cambia el nombre de la aplicación para que no se vea: Administración

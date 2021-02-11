@@ -11,16 +11,20 @@ class Peliculas(models.Model):
 
     class Meta:
         verbose_name="Película"
-        verbose_name="Películas"
+        verbose_name_plural="Películas"
         ordering = ['-year','title']
 
     def __str__(self):
         return self.title
 
 class programacionSala(models.Model):
-    date = models.DateField(verbose_name="Fecha de presentación de película")
+    datee = models.DateField(verbose_name="Fecha de presentación de película")
     hour = models.TimeField(verbose_name="Hora de presentacion de película")
     movie = models.ForeignKey(Peliculas, on_delete=models.PROTECT, verbose_name="Película")
+    created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación en db")
+    updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de última actualización en db")
 
-    def __str__(self):
-        return self.date
+    class Meta:
+        verbose_name="Programacion de Película"
+        verbose_name_plural="Programación de Películas"
+        ordering = ['datee', 'movie']
