@@ -79,13 +79,13 @@ En la aplicación sala :
 
 Diseña las urls para que se pueda acceder a:
 
-1. [ ] Listado general de todas las salas
-2. [ ] Detalle de una sala
-3. [ ] Resultado de las películas exhibidas en esa sala
+1. [X] Listado general de todas las salas
+2. [X] Detalle de una sala
+3. [X] Resultado de las películas exhibidas en esa sala
 4. [X] Hazlo en un fichero urls.py dentro de la aplicación y enlázalo desde
    el urls.py general del proyecto
-5. [ ] Escribe las tres vistas para las acciones anteriores.
-6. [ ] Escribe las plantillas necesarias. Configura el directorio de templates
+5. [X] Escribe las tres vistas para las acciones anteriores.
+6. [X] Escribe las plantillas necesarias. Configura el directorio de templates
    dentro de settings.py
 
 ## Pregunta 5 (2 punto)
