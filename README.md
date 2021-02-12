@@ -61,14 +61,14 @@ En la aplicación sala :
 
 1. [X] Activa el admin de Django para la aplicación sala
 2. [X] Diseña una clase para administrar las salas
-3. [ ] Relaciona las opciones mediante un inline
-4. [ ] Configura los fieldsets
+3. [X] Relaciona las opciones mediante un inline
+4. [X] Configura los fieldsets
 5. [X] Haz que se vea bien el plural de programacionSala
-6. [ ] Mejora la página de listados de salas:
+6. [X] Mejora la página de listados de salas:
 7. [X] Que se vean bien las columnas de datos
-8. [ ] Opción para buscar
-9. [ ] Añade list_filter y date_hierarchy
-10. [ ] Cambia el nombre de la aplicación para que no se vea: Administración
+8. [X] Opción para buscar
+9. [X] Añade list_filter y date_hierarchy
+10. [X] Cambia el nombre de la aplicación para que no se vea: Administración
     de Django
 11. [ ] Haz que, al entrar en el admin, vaya directamente a la aplicación de
     salas.
