@@ -98,6 +98,10 @@ Diseña las urls para que se pueda acceder a:
 
 # Comentarios
 
+viernes, 12 de febrero de 2021 23:19
+
+Avanzando punto por punto, he cambiado titulo a administrador, fielsetd search and others. I think this comments aren´t useful, I am tinking only use the commit offered by git, and write every thing in english to practice too.
+
 ### jueves, 11 de febrero de 2021 23:16
 
 He realizado algunos puntos, agragado datos por la shell orm api de django y visualizado con el admin. Entre otras cosas como practicar e interiorizar mas los comandos.
