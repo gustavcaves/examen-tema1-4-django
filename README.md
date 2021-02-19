@@ -70,7 +70,7 @@ En la aplicación sala :
 9. [X] Añade list_filter y date_hierarchy
 10. [X] Cambia el nombre de la aplicación para que no se vea: Administración
     de Django
-11. [ ] Haz que, al entrar en el admin, vaya directamente a la aplicación de
+11. [X] Haz que, al entrar en el admin, vaya directamente a la aplicación de
     salas.
 12. [ ] Añade en el listado de las encuestas el número total de películas
     exhibidas que ha tenido cada una.
