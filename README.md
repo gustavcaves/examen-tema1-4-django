@@ -80,8 +80,8 @@ En la aplicación sala :
 Diseña las urls para que se pueda acceder a:
 
 1. [X] Listado general de todas las salas
-2. [X] Detalle de una sala
-3. [X] Resultado de las películas exhibidas en esa sala
+2. [ ] Detalle de una sala
+3. [ ] Resultado de las películas exhibidas en esa sala
 4. [X] Hazlo en un fichero urls.py dentro de la aplicación y enlázalo desde
    el urls.py general del proyecto
 5. [X] Escribe las tres vistas para las acciones anteriores.
@@ -90,13 +90,17 @@ Diseña las urls para que se pueda acceder a:
 
 ## Pregunta 5 (2 punto)
 
-* [ ] Modifica tus plantillas para que usen un template genérico que contenga el
+* [X] Modifica tus plantillas para que usen un template genérico que contenga el
   estilo del sitio. Utiliza la herencia de plantillas. Haz que todas las páginas
   compartan el encabezado y el pie de página. Pon un color de fondo a las
   páginas y modifica el color de la letra. En el encabezado tendrá que haber una
   imagen almacenada en el proyecto.
 
 # Comentarios
+
+### friday, 19 february 2021 16:33
+
+I have aplicated a full bootstrap theme for beautiful sight.
 
 ### viernes, 12 de febrero de 2021 23:19
 

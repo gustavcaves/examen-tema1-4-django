@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% load static%}
+
 <head>
   <meta charset="UTF-8" />
   {% comment %} <meta name="viewport" content="width=device-width, initial-scale=1.0" /> {% endcomment %}
@@ -27,6 +28,7 @@
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="sidebar-heading">Cine Gustav</div>
+      <img class="sidebar-heading" src="{% static 'sala/img/cine.png' %}" alt="sala">
       <div class="list-group list-group-flush">
         <a href="{% url 'home' %}" class="list-group-item list-group-item-action bg-light">Home</a>
         <a href="{% url 'listadogeneralsalas' %}" class="list-group-item list-group-item-action bg-light">Listado General de Todas las Salas</a>
@@ -72,9 +74,16 @@
       <div class="container-fluid">
       {%block content%}{%endblock%}
       </div>
+
+              <!-- Pié de página -->
+              <div id="page-content-wrapper" class="bg-light border-right" >
+                <footer class="footer text-faded text-center py-5">
+                  <p class="m-0 mbt1">&copy; Cine Gustav 2021</p>
+                </footer>
+              </div>
+
     </div>
     <!-- /#page-content-wrapper -->
-
   </div>
   <!-- /#wrapper -->
 
@@ -91,13 +100,9 @@
   </script>
 
 
-  {% comment %} {% block content%}{% endblock%} {% endcomment %}
 
 </body>
 
-<!-- Pié de página -->
-<footer class="footer text-faded text-center py-5">
-  <p class="m-0 mbt1">&copy; Cine Gustav 2021</p>
-</footer>
+
 
 </html>

@@ -3,6 +3,20 @@
 
 {% block content%}
 
-
 <h1>Listado General de Todas Las Salas</h1>
+
+{{lgeneralsalas}}
+
+{% for i in lgeneralsalas %}
+        <!-- Proyecto -->
+        <div>   
+            <div class="col-lg-7 col-md-8">
+                <ul>
+                    <br>
+                    <li>Nombre de sala: {{i.name}}</li>
+                    <li>Numero de Sillas: {{i.number_chair}}</li>
+                </ul>
+            </div>
+        </div>
+    {% endfor %}
 {% endblock %}
