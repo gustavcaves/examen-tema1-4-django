@@ -5,14 +5,17 @@ from .models import Peliculas, programacionSala, Sala
 
 
 class programacionSalaAdmin(admin.ModelAdmin):
-    list_display = ('datee', 'hour', 'movie')
+    list_display = ('datee', 'hour', 'movie', 'sala_name')
     readonly_fields = ('created', 'updated')
     search_fields = ('movie',)
     date_hierarchy = ('datee')
     list_filter = ('datee',)
 
+    def sala_name(self, obj):
+        return obj.sala.name
+
 class programacionSalaInline(admin.TabularInline):
-    list_display = ('datee', 'hour', 'movie')
+    list_display = ('datee', 'hour', 'movie', 'sala')
     readonly_fields = ('created', 'updated')
     search_fields = ('movie',)
     date_hierarchy = ('datee')
