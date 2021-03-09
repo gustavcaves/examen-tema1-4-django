@@ -23,7 +23,7 @@
 
 <body>
 
-<div class="d-flex" id="wrapper">
+  <div class="d-flex" id="wrapper">
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
@@ -32,7 +32,7 @@
       <div class="list-group list-group-flush">
         <a href="{% url 'home' %}" class="list-group-item list-group-item-action bg-light">Home</a>
         <a href="{% url 'listadogeneralsalas' %}" class="list-group-item list-group-item-action bg-light">Listado General de Todas las Salas</a>
-        <a href="{% url 'detalledeunasala' %}" class="list-group-item list-group-item-action bg-light">Detalle de Una Sala</a>
+        <!-- {% comment %} <a href="{% url 'detalledeunasala' %}" class="list-group-item list-group-item-action bg-light">Detalle de Una Sala</a> {% endcomment %} -->
         <a href="{% url 'resultadopeliculasexhibidas' %}" class="list-group-item list-group-item-action bg-light">Resultado de las películas exhibidas en esa sala</a>
       </div>
     </div>

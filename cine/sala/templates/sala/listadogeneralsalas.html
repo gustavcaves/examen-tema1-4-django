@@ -8,15 +8,16 @@
 {{lgeneralsalas}}
 
 {% for i in lgeneralsalas %}
-        <!-- Proyecto -->
-        <div>   
-            <div class="col-lg-7 col-md-8">
-                <ul>
-                    <br>
-                    <li>Nombre de sala: {{i.name}}</li>
-                    <li>Numero de Sillas: {{i.number_chair}}</li>
-                </ul>
-            </div>
+    <!-- Proyecto -->
+    <div>   
+        <div class="col-lg-7 col-md-8">
+            <ul>
+                <br>
+                <li>Nombre de sala: {{i.name}}</li>
+                <li><a href="/detalledeunasala/{{i.id}}">Ver detalle de esta sala</a></li>
+            </ul>
+            
         </div>
-    {% endfor %}
+    </div>
+{% endfor %}
 {% endblock %}

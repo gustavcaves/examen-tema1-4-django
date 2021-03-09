@@ -6,4 +6,22 @@
 
 <h1>Detalle de una Sala</h1>
 
+{{lprograma}}
+
+{% comment %} {% for i in lprograma %} {% endcomment %}
+    <!-- Proyecto -->
+    <div>   
+        <div class="col col-auto">
+            <ul>
+                <br>
+                <h2>Sala de Proyección Selecionada: {{lprograma.sala.name}}</h2>
+                <br>
+                <li>Fecha de Programación: {{lprograma.datee}}</li>
+                <li>Hora de Programación: {{lprograma.hour}}</li>
+                <li>Película a Proyectar: {{lprograma.movie}}</li>
+                
+            </ul>
+        </div>
+    </div>
+{% comment %} {% endfor %} {% endcomment %}
 {% endblock %}
