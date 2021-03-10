@@ -3,65 +3,8 @@
 
 {% block content%}
 
-<h1>Este sería el Home</h1><br>
+<h1>Bienvenido a las Salas de Cine Gustav</h1><br>
 
-
-<p>Puntos del Examen:<br><br>
-
-## Pregunta 1 (1 punto) <br>
-
-1. [X] Crea el proyecto cine y la aplicación sala<br>
-2. [X] Configura la base de datos y las opciones locales (idioma, zona horaria)<br>
-3. [X] Sincroniza la base de datos.<br>
-4. [X] Lanza el servidor interno de django y comprueba que funciona el<br>
-   proyecto<br>
-
-## Pregunta 2 (1 punto)<br><br>
-
-En la aplicación sala :<br><br>
-
-1. [X] Escribe las dos clases para los modelos: Peliculas y programacionSala<br>
-2. [X] Sincroniza la base de datos<br>
-3. [X] Introduce varias peliculas y programacionSala desde la API del ORM de<br>
-   django<br><br>
-
-## Pregunta 3 (3 punto)<br><br>
-
-1. [X] Activa el admin de Django para la aplicación sala<br>
-2. [X] Diseña una clase para administrar las salas<br>
-3. [X] Relaciona las opciones mediante un inline<br>
-4. [X] Configura los fieldsets<br>
-5. [X] Haz que se vea bien el plural de programacionSala<br>
-6. [X] Mejora la página de listados de salas:<br>
-7. [X] Que se vean bien las columnas de datos<br>
-8. [X] Opción para buscar<br>
-9. [X] Añade list_filter y date_hierarchy<br>
-10. [X] Cambia el nombre de la aplicación para que no se vea: Administración<br>
-    de Django<br>
-11. [X] Haz que, al entrar en el admin, vaya directamente a la aplicación de<br>
-    salas.<br>
-12. [ ] Añade en el listado de las encuestas el número total de películas<br>
-    exhibidas que ha tenido cada una.<br><br>
-
-## Pregunta 4 (3 punto)<br><br>
-
-Diseña las urls para que se pueda acceder a:<br><br>
-
-1. [X] Listado general de todas las salas<br>
-2. [X] Detalle de una sala<br>
-3. [X] Resultado de las películas exhibidas en esa sala<br>
-4. [X] Hazlo en un fichero urls.py dentro de la aplicación y enlázalo desde<br>
-   el urls.py general del proyecto<br>
-5. [X] Escribe las tres vistas para las acciones anteriores.<br>
-6. [X] Escribe las plantillas necesarias. Configura el directorio de templates<br>
-   dentro de settings.py<br><br>
-
-## Pregunta 5 (2 punto)<br><br>
-
-* [ ] Modifica tus plantillas para que usen un template genérico que contenga el<br>
-  estilo del sitio. Utiliza la herencia de plantillas. Haz que todas las páginas<br>
-  compartan el encabezado y el pie de página. Pon un color de fondo a las<br>
-  páginas y modifica el color de la letra. En el encabezado tendrá que haber una<br>
-  imagen almacenada en el proyecto.<br></p>
+Este es el proyecto de sala de cine, donde se listan primero las salas, luego se genera un detalle de la sala y despues se genera un resultado de las peliculas exhibidas en esa sala.
 
 {% endblock %}

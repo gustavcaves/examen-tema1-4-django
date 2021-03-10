@@ -72,16 +72,16 @@ En la aplicación sala :
     de Django
 11. [X] Haz que, al entrar en el admin, vaya directamente a la aplicación de
     salas.
-12. [ ] Añade en el listado de las encuestas el número total de películas
-    exhibidas que ha tenido cada una.
+12. [X] Añade en el listado de las encuestas el número total de películas
+    exhibidas que ha tenido cada una. | OMITO ESTE
 
 ## Pregunta 4 (3 punto)
 
 Diseña las urls para que se pueda acceder a:
 
 1. [X] Listado general de todas las salas
-2. [ ] Detalle de una sala
-3. [ ] Resultado de las películas exhibidas en esa sala
+2. [X] Detalle de una sala
+3. [X] Resultado de las películas exhibidas en esa sala
 4. [X] Hazlo en un fichero urls.py dentro de la aplicación y enlázalo desde
    el urls.py general del proyecto
 5. [X] Escribe las tres vistas para las acciones anteriores.
@@ -97,6 +97,10 @@ Diseña las urls para que se pueda acceder a:
   imagen almacenada en el proyecto.
 
 # Comentarios
+
+### wednesday, 10 march 2021 23:13
+
+I think is so late for this project, but I can´t do it before, maybe my mind needed a fresh time, so is for me incredible but today I had finish, This is so cool. How I sayed before I will try, whily I can, writting in English for force myself to learn and practice, I recomended a lot Duolingo, it is the only that I use. I use too the translator to fixed some words.
 
 ### friday, 19 february 2021 16:33
 

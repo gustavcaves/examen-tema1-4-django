@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  {% comment %} <meta name="viewport" content="width=device-width, initial-scale=1.0" /> {% endcomment %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -31,9 +31,9 @@
       <img class="sidebar-heading" src="{% static 'sala/img/cine.png' %}" alt="sala">
       <div class="list-group list-group-flush">
         <a href="{% url 'home' %}" class="list-group-item list-group-item-action bg-light">Home</a>
-        <a href="{% url 'listadogeneralsalas' %}" class="list-group-item list-group-item-action bg-light">Listado General de Todas las Salas</a>
+        <a href="{% url 'listadogeneralsalas' %}" class="list-group-item list-group-item-action bg-light">Salas</a>
         <!-- {% comment %} <a href="{% url 'detalledeunasala' %}" class="list-group-item list-group-item-action bg-light">Detalle de Una Sala</a> {% endcomment %} -->
-        <a href="{% url 'resultadopeliculasexhibidas' %}" class="list-group-item list-group-item-action bg-light">Resultado de las películas exhibidas en esa sala</a>
+        {% comment %} <a href="{% url 'resultadopeliculasexhibidas' %}" class="list-group-item list-group-item-action bg-light">Resultado de las películas exhibidas en esa sala</a> {% endcomment %}
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -52,6 +52,9 @@
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'listadogeneralsalas' %}">Salas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/admin/sala/sala">Admin</a>

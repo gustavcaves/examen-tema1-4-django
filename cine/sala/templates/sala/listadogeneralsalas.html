@@ -3,9 +3,9 @@
 
 {% block content%}
 
-<h1>Listado General de Todas Las Salas</h1>
 
 {{lgeneralsalas}}
+<h1>Salas</h1>
 
 {% for i in lgeneralsalas %}
     <!-- Proyecto -->
@@ -13,11 +13,10 @@
         <div class="col-lg-7 col-md-8">
             <ul>
                 <br>
-                <li>Nombre de sala: {{i.name}}</li>
-                <li><a href="/detalledeunasala/{{i.id}}">Ver detalle de esta sala</a></li>
+                <li><a href="/detalledeunasala/{{i.id}}">{{i.name}}</a></li>
             </ul>
-            
         </div>
     </div>
 {% endfor %}
+
 {% endblock %}

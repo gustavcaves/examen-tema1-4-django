@@ -3,6 +3,24 @@
 
 {% block content%}
 
-<h1>Resultado de Peliculas Exhibidas</h1>
+
+
+{{lprograma}}
+
+<h1>Peliculas Exhibidas en la {{lprograma.0.sala.name}}</h1>
+
+{% for i in lprograma %}
+    <!-- Proyecto -->
+    <div>   
+        <div class="col col-auto">
+            <ul>
+                <br>
+                <li>Película a Proyectar: {{i.movie}}</li>
+                <li>Fecha de Programación: {{i.datee}}</li>
+                <li>Hora de Programación: {{i.hour}}</li>
+            </ul>
+        </div>
+    </div>
+{% endfor %}
 
 {% endblock %}

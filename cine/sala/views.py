@@ -10,9 +10,10 @@ def listadogeneralsalas(request):
     lgeneralsalas = Sala.objects.all()
     return render(request, "sala/listadogeneralsalas.html", {'lgeneralsalas':lgeneralsalas} )
 
-def detalledeunasala(request, sala):
-    lprograma = programacionSala.objects.get(sala=sala)
-    return render(request, "sala/detalledeunasala.html", {'lprograma':lprograma})
+def detalledeunasala(request, id):
+    lgeneralsalas = Sala.objects.get(id=id)
+    return render(request, "sala/detalledeunasala.html", {'lgeneralsalas':lgeneralsalas} )
 
-def resultadopeliculasexhibidas(request):
-    return render(request, "sala/resultadopeliculasexhibidas.html")
+def resultadopeliculasexhibidas(request, sala):
+    lprograma = programacionSala.objects.filter(sala=sala)
+    return render(request, "sala/resultadopeliculasexhibidas.html", {'lprograma':lprograma})

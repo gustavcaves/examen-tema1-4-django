@@ -4,23 +4,22 @@
 
 {% block content%}
 
-<h1>Detalle de una Sala</h1>
+{{lgeneralsalas}}
 
-{{lprograma}}
+<h1>Detalle de la {{lgeneralsalas.name}}</h1>
 
-{% comment %} {% for i in lprograma %} {% endcomment %}
+<br>
+
+{% comment %} {% for i in lgeneralsalas %} {% endcomment %}
     <!-- Proyecto -->
     <div>   
-        <div class="col col-auto">
+        <div class="col-lg-7 col-md-8">
             <ul>
-                <br>
-                <h2>Sala de Proyección Selecionada: {{lprograma.sala.name}}</h2>
-                <br>
-                <li>Fecha de Programación: {{lprograma.datee}}</li>
-                <li>Hora de Programación: {{lprograma.hour}}</li>
-                <li>Película a Proyectar: {{lprograma.movie}}</li>
-                
+
+                <li># Sillas: {{lgeneralsalas.number_chair}}</li>
+                <li><a href="/resultadopeliculasexhibidas/{{lgeneralsalas.id}}">Peliculas Exhibidas en esta {{lgeneralsalas.name}}</a></li>
             </ul>
+            
         </div>
     </div>
 {% comment %} {% endfor %} {% endcomment %}
