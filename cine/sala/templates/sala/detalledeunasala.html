@@ -17,10 +17,29 @@
             <ul>
 
                 <li># Sillas: {{lgeneralsalas.number_chair}}</li>
-                <li><a href="/resultadopeliculasexhibidas/{{lgeneralsalas.id}}">Peliculas Exhibidas en esta {{lgeneralsalas.name}}</a></li>
+                <li><a href="{% url 'resultadopeliculasexhibidas' lgeneralsalas.id %}">Peliculas Exhibidas en esta {{lgeneralsalas.name}}</a></li>
             </ul>
             
         </div>
     </div>
 {% comment %} {% endfor %} {% endcomment %}
+
+{{lprograma}}
+
+<h1>Peliculas Exhibidas en la {{lprograma.0.sala.name}}</h1>
+
+{% for i in lprograma %}
+    <!-- Proyecto -->
+    <div>   
+        <div class="col col-auto">
+            <ul>
+                <br>
+                <li>Película a Proyectar: {{i.movie}}</li>
+                <li>Fecha de Programación: {{i.datee}}</li>
+                <li>Hora de Programación: {{i.hour}}</li>
+            </ul>
+        </div>
+    </div>
+{% endfor %}
+
 {% endblock %}

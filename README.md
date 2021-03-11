@@ -72,7 +72,7 @@ En la aplicación sala :
     de Django
 11. [X] Haz que, al entrar en el admin, vaya directamente a la aplicación de
     salas.
-12. [X] Añade en el listado de las encuestas el número total de películas
+12. [ ] Añade en el listado de las encuestas el número total de películas
     exhibidas que ha tenido cada una. | OMITO ESTE
 
 ## Pregunta 4 (3 punto)
